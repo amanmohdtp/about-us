@@ -1,1 +1,76 @@
-..
+/* ===== main.css (root level) ===== */
+
+/* Basic page reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global background and font */
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Inter', sans-serif;
+  background-color: #f8fafc;
+  color: #111827;
+}
+
+/* Smooth scroll and link transitions */
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.25s ease-in-out;
+}
+
+a:hover {
+  color: #2563eb;
+}
+
+/* For static site hosting (no-scroll full-page layout) */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Hide scrollbar for non-scroll design */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Generic utility classes */
+.text-center {
+  text-align: center;
+}
+
+.shadow-soft {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Optional: video styling for homepage */
+video {
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  max-width: 90%;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #6b7280;
+  padding: 1rem 0;
+}
