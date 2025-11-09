@@ -1,6 +1,6 @@
 const siteConfig = {
   companyName: "Your Company Name",
-  logo: "/logo.png",
+  logo: "src/components/logo.png",
   videoUrl: "https://example.com/video.mp4",
   aboutText: `We are a company dedicated to innovation and excellence.\nOur mission is to deliver top-quality solutions to our clients worldwide.`,
   brochure: {
