@@ -110,7 +110,7 @@ Output is generated in the build/ folder, optimized for deployment.
 
 📜 License
 
-This project is open-source under the MIT License.
+⚠️ This project is open-source not under any License.
 
 
 ---
